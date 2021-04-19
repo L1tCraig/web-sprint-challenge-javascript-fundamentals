@@ -17,7 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+// nestedFunction is in myFunction as is the const internal.
 
 
 
@@ -28,10 +28,12 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
+function summation(number) {
+  return number * (number + 1) / 2;
 
-  }
+}
+// math isnt my strenght but this is summation math and should 
+// return the scaling variables so 2 would return 3. 6 returns 21
  
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
@@ -56,19 +58,22 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function animalNames(array){
+    let displayNames = [];
+  displayNames.push(array.forEach(element => {
+    return `name: ${array.animal_name}, scientific: ${array.scientific_name}`;
+});)
   }
   
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
-  The zoo needs a list of all their animal's names converted to lower case. 
+  The zoo needs a list of all their animal'sa names converted to lower case. 
   Using lowerCaseNames use .map() to create a new array of strings with the animal's names in lowercase and return the new array. 
   For example: ['jackal, asiatic', .....]
   */
 
-  function lowerCaseNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function lowerCaseNames(list){
+    lowerList = list.map()
   }
   
   
