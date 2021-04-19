@@ -64,7 +64,7 @@ const zooAnimals = [
     return `name: ${array.animal_name}, scientific: ${array.scientific_name}`;
 });)
   }
-  
+  //test
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
   The zoo needs a list of all their animal'sa names converted to lower case. 
